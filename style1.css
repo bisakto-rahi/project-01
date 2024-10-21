@@ -1,0 +1,192 @@
+@charset "UTF-8";
+
+/*!----------{  Author      :   Bisakto-Rahi  }----------_*/
+/*!----------{  Create       :   21/10/2024   }----------_*/
+
+/*_----------{  My Color Variables  }----------_*/
+:root{
+    --dark-red: #dc3545;
+    --red: #fc2a1b;
+    --pink: #e83e8c;
+    --purple: #6f42c1;
+    --indigo: #6610f2;
+    --blue: #007bff;
+    --dark-blue: #17a2b8;
+    --light-blue: #0dcaf0;
+    --light-green: #20c997;
+    --green: #28a745;
+    --yellow: #ffc107;
+    --orange: #fd7e14;
+    --highlight-x: #fff3cd;
+    --highlight-y: #ffff5b;
+    --black: #000;
+    --key: #131514;
+    --dark: #343a40;
+    --gray: #6c757d;
+    --white: #fff;
+    --gray-100: #f8f9fa;
+    --gray-200: #e9ecef;
+    --gray-300: #dee2e6;
+    --gray-400: #ced4da;
+    --gray-500: #adb5bd;
+    --gray-600: #6c757d;
+    --gray-700: #495057;
+    --gray-800: #343a40;
+    --gray-900: #212529;
+    --light-border-color: #dee2e6;
+    --dark-border-color: #6c757d;
+    /*_----------{  My Responsive Variables  }----------_*/
+  --break-point-xs: 0;
+  --break-point-sm: 576px;
+  --break-point-md: 768px;
+  --break-point-lg: 992px;
+  --break-point-xl: 1200px;
+  --break-point-xxl: 1400px;
+}
+/*!----------{  Last Update   :   18/10/2024   }----------_*/
+
+/*_----------{  ^_^  }----------_*/
+
+/*todo--------------{  Start Header Section Style  }--------------_*/
+/*todo--------------{  Start Header Section Style  }--------------_*/
+.N-head a{
+  text-decoration: none;
+}
+#nav-header{
+  color: var(--key);
+  font-size: 38px;
+  letter-spacing: 1.5px;
+}
+#nav-header i{
+  color:var(--red)
+}
+#nav-header i:hover{
+  color:var(--key)
+}
+#icon1{
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 50%;
+  margin-left: 43%;
+}
+#icon2{
+  font-size: 24px;
+}
+.nav-icon #icon1:hover,
+#icon2:hover{
+  color: var(--red)!important;
+}
+/*//--------------{  Header Section Style  }--------------//*/
+
+/*todo--------------{  Start Navbar Section Style  }--------------_*/
+.nav li a{
+  font-size: 20px;
+}
+.nav li a:hover{
+  color: var(--red)!important;
+  font-weight: bolder;
+}
+/*//--------------{  Navbar Section Style  }--------------//*/
+/*todo--------------{  Start Banner Section Style  }----------------_*/
+.my-banner img{
+  width: 100%;
+  height: 100vh;
+}
+.banner{
+  background-color: var(--gray-900);
+}
+.b-pera{
+  text-align: center;
+  color: var(--gray-100);
+}
+.b-div{
+  margin-top: 250px;
+}
+.b-btn{
+margin-left: 35%;
+}
+/*//--------------{  Main Banner Style  }----------------//*/
+/*todo--------------{  Start Extra Section Style  }---------------_*/
+/*//--------------{  Extra Section Style  }-------------//-_*/
+/*todo--------------{  Start Article Section Style  }---------------_*/
+/* .my-article{
+  background-color: var(--gray-100);
+} */
+/*//--------------{  Article Section Style  }-------------//-_*/
+/*todo--------------{  Start Aside Section Style  }---------------_*/
+/*//--------------{  Aside Section Style  }---------------//*/
+/*todo--------------{  Start Footer Section Style  }---------------_*/
+.my-footer{
+  background-color: var(--black);
+  color: var(--gray-100);
+}
+.footer-address{
+  line-height: 30px;
+}
+.footer-h2{
+  color: var(--orange)!important;
+  padding-top: 10px;
+  font-size: 40px;
+  text-decoration: underline;
+}
+.footer-h2:hover{
+  color: var(--red)!important;
+}
+.footer-email{
+  color: var(--white)!important;
+  font-size: 20px;
+  text-decoration: none;
+  font-style: italic;
+}
+.footer-email:hover{
+  color: var(--red)!important;
+}
+.footer-link a{
+  color: var(--white)!important;
+  line-height: 30px;
+}
+.footer-link h6{
+  color: var(--white)!important;
+  font-size: 25px;
+}
+.footer-link a:hover{
+  color: var(--orange)!important;
+}
+.footer-link .search{
+  margin-top: 20px;
+  width: 65%;
+  margin-right:10px ;
+  margin-bottom: 20px;
+  border-radius: 14px;
+  outline: none;
+  padding-left: 10px;
+  padding: 4px 1px 4px 10px;
+  background-color: var(--black);
+  border: 2px solid var(--gray-600);
+  color: var(--gray-300);
+}
+.search::placeholder{
+  color: var(--gray-300);
+
+}
+.search:focus{
+  background-color: var(--white);
+  border: 2px solid var(--gray-800);
+  color: #000;
+}
+.search:hover{
+  background-color: var(--gray-800);
+}
+.my-search{
+  color: var(--gray-300);
+  font-size: 20px;
+}
+.my-search:hover{
+  color: var(--red);
+}
+/*//--------------{  Footer Section Style  }--------------//_*/
+
+/*_----------{  Add Description  }----------_*/
+
+
+/*//----------{  Description  }----------//*/

@@ -1,0 +1,44 @@
+/*_------------------{  doctype css  }------------------_*/
+
+/*!----------{  Author      :   Bisakto-Rahi  }----------_*/
+/*!----------{  Create       :   18/10/2024   }----------_*/
+
+/*_----------{  Google Font CDN  }----------_*/
+@import url('https://fonts.googleapis.com/css2?family=Salsa&display=swap');
+
+/*!----------{  Last Update   :   18/10/2024   }-----------_*/ 
+/*todo-------------{  Start All Body Style  }--------------_*/
+*{
+    margin: 0;
+    padding: 0;
+}
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+body{
+    max-width: 100%;
+    color: #212529;
+    background-color: #fff;
+    font-family: "Salsa", cursive;
+}
+header, nav, main,
+section, article, aside, 
+footer {
+  display: block;
+}
+section h6, aside h6{
+    font-size: 32px;
+    text-align: center;
+    font-style: bold;
+}
+section p, aside p{
+    font-size: 20px;
+    text-align: center;
+    color:  #343a40;
+}
+/*_----------{  Add Description  }----------_*/
+
+
+/*//----------{  Description  }----------//*/
